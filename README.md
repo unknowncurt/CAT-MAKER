@@ -4,3 +4,6 @@ Simple program that requests and returns cat images . Made for purposes of revie
 
 
 JUST A QUICK EDIT  #1 TO MAKE SURE EVERYTHING IS CONNECTED
+
+
+#  everything is connected
