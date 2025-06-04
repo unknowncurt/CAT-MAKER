@@ -11,12 +11,12 @@ def fetch_cat_image():
     # i think i learned this from a bald guy on youtube
 
     if response.status_code == 200 :
-        filename = f"cat_{int(time.time())}.jpg"
+        filename = f"cat_{int(time.time())}.jpg"   # calling times to create name
 
 
         with open(filename,'wb') as f:
 
-            f.write(response.content)
+            f.write(response.content)   # using f so its faster
 
 
             print ( f"cat image saved as {filename}")
